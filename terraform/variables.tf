@@ -1,11 +1,11 @@
 variable "resource_group" {
   description = "The resource group"
-  default = "myresourcegroup"
+  default = "azjavaghaction$RANDOM-rg"
 }
 
 variable "application_name" {
   description = "The Spring Boot application name"
-  default     = "myapp291278"
+  default     = "BookFlight$RANDOM"
 }
 
 variable "location" {
