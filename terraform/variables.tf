@@ -1,11 +1,11 @@
 variable "resource_group" {
   description = "The resource group"
-  default = "echo $AZ_RESOURCE_GROUP"
+  default = "myresourcegroup"
 }
 
 variable "application_name" {
   description = "The Spring Boot application name"
-  default     = "echo $APP_NAME"
+  default     = "myapp291278"
 }
 
 variable "location" {
